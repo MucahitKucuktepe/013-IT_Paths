@@ -1,0 +1,379 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@100&family=Rubik+Iso&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(
+    105.5deg,
+    rgba(31, 212, 248, 1) 11%,
+    rgba(218, 15, 183, 1) 74.9%
+  );
+  width: 100vw;
+  height: auto;
+}
+
+header {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-family: "Rubik Iso", cursive;
+  font-family: 'Pacifico', cursive;
+  font-style: italic;
+}
+
+header h1 {
+  letter-spacing: 10px;
+  text-shadow: 3px 8px rgba(0, 0, 0, 0.231);
+}
+
+.sowtware_development {
+  display: flex;
+  gap: 1rem;
+  background-image: linear-gradient(
+    89.7deg,
+    rgba(0, 32, 95, 1) 2.8%,
+    rgba(132, 53, 142, 1) 97.8%
+  );
+  padding: 30px;
+  text-align: justify;
+  position: relative;
+  flex-direction: row;
+  margin-bottom: 25px;
+}
+
+.sowtware_development img {
+  width: 24%;
+  height: 25%;
+  border-radius: 20px;
+  border: 2px solid red;
+  
+ 
+}
+
+
+
+.software2 h2{
+  text-align: center;
+  margin-bottom: 10px;
+  color: bisque;
+  letter-spacing: 3px;
+  font-style: italic;
+}
+
+.software2 p {
+  text-align: justify;
+  text-indent: 30px;
+  color: white;
+ 
+}
+
+.software2 button {
+  position: absolute;
+  bottom: 10%;
+  right: 5%;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: orangered;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.aws {
+  display: flex;
+  gap: 1rem;
+  background-image: linear-gradient(
+    89.7deg,
+    rgba(0, 32, 95, 1) 2.8%,
+    rgba(132, 53, 142, 1) 97.8%
+  );
+  padding: 30px;
+  text-align: justify;
+  position: relative;
+  flex-direction: row;
+  margin-bottom: 25px;
+  box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.427);
+}
+
+.aws img {
+  width: 24%;
+  height: 25%;
+  border-radius: 20px;
+  border: 2px solid red;
+}
+.aws2 h2{
+  text-align: center;
+  margin-bottom: 10px;
+  color: bisque;
+  letter-spacing: 3px;
+  font-style: italic;
+}
+
+.aws2 p {
+  text-align: justify;
+  text-indent: 30px;
+  color: white;
+ 
+}
+
+.aws2 button {
+  position: absolute;
+  bottom: 10%;
+  right: 5%;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: orangered;
+}
+
+.data_science{
+  display: flex;
+  gap: 1rem;
+  background-image: linear-gradient(
+    89.7deg,
+    rgba(0, 32, 95, 1) 2.8%,
+    rgba(132, 53, 142, 1) 97.8%
+  );
+  padding: 30px;
+  text-align: justify;
+  position: relative;
+  flex-direction: row;
+  margin-bottom: 25px;
+  box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.427);
+}
+
+.data_science img {
+  width: 24%;
+  height: 25%;
+  border-radius: 20px;
+  border: 2px solid red;
+}
+.data2 h2{
+  text-align: center;
+  margin-bottom: 10px;
+  color: bisque;
+  letter-spacing: 3px;
+  font-style: italic;
+}
+
+.data2 p {
+  text-align: justify;
+  text-indent: 30px;
+  color: white;
+ 
+}
+
+.data2 button {
+  position: absolute;
+  bottom: 10%;
+  right: 5%;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: orangered;
+}
+
+.salesforce{
+  display: flex;
+  gap: 1rem;
+  background-image: linear-gradient(
+    89.7deg,
+    rgba(0, 32, 95, 1) 2.8%,
+    rgba(132, 53, 142, 1) 97.8%
+  );
+  padding: 30px;
+  text-align: justify;
+  position: relative;
+  flex-direction: row;
+  margin-bottom: 25px;
+  box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.427);
+}
+
+.salesforce img {
+  width: 24%;
+  height: 25%;
+  border-radius: 20px;
+  border: 2px solid red;
+}
+.sales2 h2{
+  text-align: center;
+  margin-bottom: 10px;
+  color: bisque;
+  letter-spacing: 3px;
+  font-style: italic;
+}
+
+.sales2 p {
+  text-align: justify;
+  text-indent: 30px;
+  color: white;
+ 
+}
+
+.sales2 button {
+  position: absolute;
+  bottom: 10%;
+  right: 5%;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: orangered;
+}
+
+.cyber_security{
+  display: flex;
+  gap: 1rem;
+  background-image: linear-gradient(
+    89.7deg,
+    rgba(0, 32, 95, 1) 2.8%,
+    rgba(132, 53, 142, 1) 97.8%
+  );
+  padding: 30px;
+  text-align: justify;
+  position: relative;
+  flex-direction: row;
+  margin-bottom: 25px;
+  box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.427);
+}
+
+.cyber_security img {
+  width: 24%;
+  height: 25%;
+  border-radius: 20px;
+  border: 2px solid red;
+}
+.cyber2 h2{
+  text-align: center;
+  margin-bottom: 10px;
+  color: bisque;
+  letter-spacing: 3px;
+  font-style: italic;
+}
+
+.cyber2 p {
+  text-align: justify;
+  text-indent: 30px;
+  color: white;
+ 
+}
+
+.cyber2 button {
+  position: absolute;
+  bottom: 10%;
+  right: 5%;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: orangered;
+}
+.web3_blockchain{
+  display: flex;
+  gap: 1rem;
+  background-image: linear-gradient(
+    89.7deg,
+    rgba(0, 32, 95, 1) 2.8%,
+    rgba(132, 53, 142, 1) 97.8%
+  );
+  padding: 30px;
+  text-align: justify;
+  position: relative;
+  flex-direction: row;
+  margin-bottom: 25px;
+  box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.427);
+}
+
+.web3_blockchain img {
+  width: 24%;
+  height: 25%;
+  border-radius: 20px;
+  border: 2px solid red;
+}
+.web3_2 h2{
+  text-align: center;
+  margin-bottom: 10px;
+  color: bisque;
+  letter-spacing: 3px;
+  font-style: italic;
+}
+
+.web3_2 p {
+  text-align: justify;
+  text-indent: 30px;
+  color: white;
+ 
+}
+
+.web3_2 button {
+  position: absolute;
+  bottom: 10%;
+  right: 5%;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: orangered;
+}
+
+.test{
+  display: flex;
+  gap: 1rem;
+  background-image: linear-gradient(
+    89.7deg,
+    rgba(0, 32, 95, 1) 2.8%,
+    rgba(132, 53, 142, 1) 97.8%
+  );
+  padding: 30px;
+  text-align: justify;
+  position: relative;
+  flex-direction: row;
+  margin-bottom: 25px;
+  box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.427);
+}
+
+.test img {
+  width: 24%;
+  height: 25%;
+  border-radius: 20px;
+  border: 2px solid red;
+}
+.test2 h2{
+  text-align: center;
+  margin-bottom: 10px;
+  color: bisque;
+  letter-spacing: 3px;
+  font-style: italic;
+}
+
+.test2 p {
+  text-align: justify;
+  text-indent: 30px;
+  color: white;
+ 
+}
+
+.test2 button {
+  position: absolute;
+  bottom: 10%;
+  right: 5%;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: orangered;
+}
+
+
+
+
+
+
+
+
